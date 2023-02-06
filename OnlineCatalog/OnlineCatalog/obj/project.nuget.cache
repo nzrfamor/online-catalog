@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D8nzDUS4s4ddhve5WK4Bmy0FsKm/BcfND2BxkG9qQkvkpDpKRowc7bfRUNcxkdBJmYaHQ/8oiI7RdJNWlJSh0w==",
+  "success": true,
+  "projectFilePath": "D:\\GitProjects\\TreeOfEmployers\\OnlineCatalog\\OnlineCatalog\\OnlineCatalog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
+  ],
+  "logs": []
+}
