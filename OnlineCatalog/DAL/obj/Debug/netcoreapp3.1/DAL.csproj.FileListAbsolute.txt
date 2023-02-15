@@ -1,0 +1,13 @@
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
