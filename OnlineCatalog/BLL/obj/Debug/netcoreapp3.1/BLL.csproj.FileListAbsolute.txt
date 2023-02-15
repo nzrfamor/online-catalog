@@ -1,0 +1,13 @@
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.AssemblyReference.cache
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\obj\Debug\netcoreapp3.1\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\GitProjects\TreeOfEmployers\OnlineCatalog\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
