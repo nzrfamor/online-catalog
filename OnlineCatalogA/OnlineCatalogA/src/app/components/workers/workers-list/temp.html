@@ -1,0 +1,25 @@
+<table class="table" *ngIf="workers && workers.length > 0">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Position</th>
+            <th>Date of Hire</th>
+            <th>Salary</th>
+            <th>Subordinates Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let worker of workers">
+            <td>{{worker.id}}</td>
+            <td>{{worker.name}}</td>
+            <td>{{worker.surname}}</td>
+            <td>{{worker.position}}</td>
+            <td>{{worker.hireDate.substring(0,10)}}</td>
+            <td>{{worker.salary}}</td>
+            <td>{{worker.subordinatesIds.length}}</td>
+            <td><a [routerLink]="['/workers', 'edit', worker.id]">Edit</a></td>
+        </tr>
+    </tbody>
+</table>

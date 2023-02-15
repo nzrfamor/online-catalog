@@ -1,0 +1,47 @@
+<div class="container my-5">
+    <h1 class="mb-3">Edit Worker Data</h1>
+    <div class="col-5">
+    <form #form = "ngForm" (ngSubmit) = "updateAllData()">
+        <div class="mb-3" *ngIf="workers && workers.length > 0">
+          <label for="name" class="form-label">Leader</label>
+          <select class="form-select" aria-label="Default select example" required   
+          [(ngModel)] = "editWorkerAsSubordinateRequest.leaderId"
+          [(ngModel)] = "editWorkerRequest.leaderId" name="leaderId">
+            <option value="" disabled selected>Select your option</option>
+            <option *ngFor="let worker of workers" [ngValue]="worker.workerAsLeaderId">{{worker.name}} {{worker.surname}}</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" 
+          value="{{editWorkerRequest.name}}" minlength="1" maxlength="15" 
+          required [(ngModel)] = "editWorkerRequest.name" name="name">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Surname</label>
+          <input type="text" class="form-control"
+          value="{{editWorkerRequest.surname}}" minlength="1" maxlength="15" 
+          required [(ngModel)] = "editWorkerRequest.surname" name="surname">
+        </div>
+        <div class="mb-3">
+          <label for="position" class="form-label">Position</label>
+          <input type="text" class="form-control"
+          value="{{editWorkerRequest.position}}" minlength="4" maxlength="15" 
+          required [(ngModel)] = "editWorkerRequest.position" name="position">
+        </div>
+        <div class="mb-3">
+          <label for="hireDate" class="form-label">Date of Hire</label>
+          <input type="date" class="form-control" 
+          value="{{editWorkerRequest.hireDate}}" min="2002-01-01"
+          required [(ngModel)] = "editWorkerRequest.hireDate" name="hireDate">
+        </div>
+        <div class="mb-3">
+          <label for="salary" class="form-label">Salary</label>
+          <input type="number" class="form-control"
+          value="{{editWorkerRequest.salary}}" min="3500" max="1500000" required
+          [(ngModel)] = "editWorkerRequest.salary" name="salary">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+</div>

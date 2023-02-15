@@ -1,0 +1,35 @@
+<div class="container my-5">
+    <h1 class="mb-3">Tree of Workers</h1>
+    <table class="table table-bordered border-dark" *ngIf="firstWorker && firstWorker.id != 0">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Position</th>
+                <th>Date of Hire</th>
+                <th>Salary</th>
+                <th>Subordinates Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{firstWorker.id}}</td>
+                <td>{{firstWorker.name}}</td>
+                <td>{{firstWorker.surname}}</td>
+                <td>{{firstWorker.position}}</td>
+                <td>{{firstWorker.hireDate.substring(0,10)}}</td>
+                <td>{{firstWorker.salary}}</td>
+                <td>{{firstWorker.subordinatesIds.length}}</td>
+            </tr>
+            <tr *ngIf="firstWorker.subordinates && firstWorker.subordinates.length > 0">
+              <td colspan="100%">
+                <app-table-builder [workers]="firstWorker.subordinates">Edit</app-table-builder>
+              </td>
+            </tr>
+        </tbody>
+      </table>
+      <p *ngIf="!workers || workers.length === 0">No Workers Found!</p>
+</div>
+
+
